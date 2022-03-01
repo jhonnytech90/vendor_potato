@@ -144,7 +144,6 @@ else
         $(warning **********************************************************)
         # $(error "NO KERNEL CONFIG")
     else
-        else
             ifneq ($(TARGET_FORCE_PREBUILT_KERNEL),)
                 $(warning **********************************************************)
                 $(warning * Kernel source found and configuration was defined,     *)
